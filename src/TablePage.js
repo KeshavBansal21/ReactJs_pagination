@@ -68,7 +68,7 @@ export default class TablePage extends Component {
     console.log(numberOfPage);
     console.log(currentPage);
     let si = (currentPage - 1) * limit;
-    let eidx = si + limit;
+    let eidx =parseInt(si)  + parseInt(limit);
     filteredArray = filteredArray.slice(si, eidx);
 
     return (
