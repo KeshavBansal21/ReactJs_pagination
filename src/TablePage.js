@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import getData from "./temp/data";
-import Pagination from "./Pagination";
+// import Pagination from "./Pagination";
 export default class TablePage extends Component {
   state = {
     currentPage: 1,
@@ -91,7 +91,7 @@ export default class TablePage extends Component {
                   <td>{dataobj.email}</td>
                 </tr>
               );
-            })}
+            })} 
           </tbody>
           {/* <Pagination></Pagination> */}
           <tfoot>
@@ -176,3 +176,4 @@ export default class TablePage extends Component {
 // }
 
 // export default Pagination;
+ 
