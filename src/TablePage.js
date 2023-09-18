@@ -29,7 +29,7 @@ export default class TablePage extends Component {
     });
 
   prevPageFun = () => {
-    console.log("Clikced");
+    console.log("Clik ced");
     if (this.state.currentPage > 1)
       this.setState({ currentPage: this.state.currentPage - 1 });
     // changePage(this.state.currentPage)
